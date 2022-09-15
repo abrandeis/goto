@@ -1,0 +1,13 @@
+## Goto is a function that will go to the full path directory of your named file
+
+goto () {
+  if [[ $1 == '-h' || -z $1 ]]; then
+  goto_usage
+  else
+  cd $(dorma,e ${1});
+  ll ${1}
+  pwd
+  fi
+  }
+  
+  
