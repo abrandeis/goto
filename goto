@@ -1,3 +1,7 @@
+#!/bin/bash
+
+
+
 ## Goto is a function that will go to the full path directory of your named file
 
 goto () {
